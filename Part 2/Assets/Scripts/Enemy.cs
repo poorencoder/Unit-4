@@ -22,8 +22,11 @@ public class Enenmy : MonoBehaviour
         
         enemyRb.AddForce(lookDirection* speed);
 
-        if(transform.position.y < -10){
+        if (transform.position.y < -10){
             Destroy(gameObject);
         }
+
+        
+    
     }
 }
